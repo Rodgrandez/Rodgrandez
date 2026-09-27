@@ -12,6 +12,7 @@ MSc in Artificial Intelligence at UPC.
 | Project | What it shows | Result |
 |---|---|---|
 | [peru-inflation-nowcasting](https://github.com/Rodgrandez/peru-inflation-nowcasting) | Nowcasting monthly Lima CPI inflation from daily BCRP data: U-MIDAS, Almon-MIDAS, Ridge, LASSO, XGBoost and a forecast combination, expanding-window evaluation with Diebold-Mariano tests | Headline: combination RMSE 3.5% below AR (p = 0.098), but only 0.9% below an AR with inflation expectations; core: nothing beats the AR → daily data add little beyond expectations |
+| [lima-food-prices-pipeline](https://github.com/Rodgrandez/lima-food-prices-pipeline) | Daily data pipeline for Lima wholesale food prices (MIDAGRI-SISAP): chunked download, published data-quality checks, price-pressure and shock indicators, and a [live Plotly.js dashboard](https://rodgrandez.github.io/lima-food-prices-pipeline/) | 59 varieties tracked daily since 2010 (359,680 clean observations); isolated source glitches removed (79) while real price moves are kept |
 | [credit-risk-pd-validation](https://github.com/Rodgrandez/credit-risk-pd-validation) | PD scorecard (WoE logistic), XGBoost challenger, LGD, lifetime expected loss and a second-line [validation report](https://github.com/Rodgrandez/credit-risk-pd-validation/blob/main/reports/validation_report.pdf) on 36-month Lending Club loans | Out-of-time AUC 0.639 vs 0.661 for Lending Club's grade; PD under-predicts out of time (calibration ratio 0.890) → recalibration recommended |
 
 **Publications**
