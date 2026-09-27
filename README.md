@@ -7,6 +7,12 @@ Central Reserve Bank of Peru (14+ years). I care about statistical rigor: out-of
 reproducible pipelines and models that decision-makers can trust. I also teach Machine Learning in the
 MSc in Artificial Intelligence at UPC.
 
+**Projects**
+
+| Project | What it shows | Result |
+|---|---|---|
+| [credit-risk-pd-validation](https://github.com/Rodgrandez/credit-risk-pd-validation) | PD scorecard (WoE logistic), XGBoost challenger, LGD, lifetime expected loss and a second-line [validation report](https://github.com/Rodgrandez/credit-risk-pd-validation/blob/main/reports/validation_report.pdf) on 36-month Lending Club loans | Out-of-time AUC 0.639 vs 0.661 for Lending Club's grade; PD under-predicts out of time (calibration ratio 0.890) → recalibration recommended |
+
 **Publications**
 - [A high frequency indicator of credit in Peru: A Random Forests and dynamic network connectedness approach](https://doi.org/10.1016/j.latcb.2026.100204) — *Latin American Journal of Central Banking* (2026)
 - [Nowcasting and Backcasting Credit with Mixed-Frequency Data and Machine Learning: Evidence from Peru](https://doi.org/10.2139/ssrn.5408526) — SSRN Working Paper (2025)
