@@ -1,11 +1,12 @@
 ### Rodrigo Grandez
 
-**Quantitative Economist | Time Series, Nowcasting & Machine Learning | Data Science for Prices, Credit & Risk**
+**Quantitative Economist | Applied Macro Research, Nowcasting & Machine Learning | Data Science for Prices, Credit & Risk**
 
 I forecast inflation and build nowcasting and machine learning models from high-frequency data at the
-Central Reserve Bank of Peru (14+ years). I care about statistical rigor: out-of-sample evaluation,
-reproducible pipelines and models that decision-makers can trust. I also teach Machine Learning in the
-MSc in Artificial Intelligence at UPC.
+Central Reserve Bank of Peru (14+ years). My research uses high-frequency data to answer macro questions,
+such as real-time forecasting aligned with the release calendar and credit conditions. I evaluate models
+out of sample, in real time, and report what fails as well as what works. I also teach Machine Learning in
+the MSc in Artificial Intelligence at UPC.
 
 **Projects**
 
@@ -16,9 +17,9 @@ MSc in Artificial Intelligence at UPC.
 | [credit-risk-pd-validation](https://github.com/Rodgrandez/credit-risk-pd-validation) | PD scorecard (WoE logistic), XGBoost challenger, LGD, lifetime expected loss and a second-line [validation report](https://github.com/Rodgrandez/credit-risk-pd-validation/blob/main/reports/validation_report.pdf) on 36-month Lending Club loans | Out-of-time AUC 0.639 vs 0.661 for Lending Club's grade; PD under-predicts out of time (calibration ratio 0.890) → recalibration recommended |
 | [bank-account-fraud-detection](https://github.com/Rodgrandez/bank-account-fraud-detection) | Fraud detection on 1M bank account applications (Feedzai BAF): strictly time-based validation, cost-based and budget-based alert decisions, calibration, fairness audit by age, drift monitoring and a [model card](https://github.com/Rodgrandez/bank-account-fraud-detection/blob/main/reports/model_card.md) | Recall 0.58 on unseen months with a threshold set for 5% false positives (6.2% realised; +0.06 vs logistic at equal FPR); flags legitimate 50+ applicants 2.3x as often -> approve with conditions |
 
-**Publications**
+**Research**
 - [A high frequency indicator of credit in Peru: A Random Forests and dynamic network connectedness approach](https://doi.org/10.1016/j.latcb.2026.100204) — *Latin American Journal of Central Banking* (2026)
-- [Nowcasting and Backcasting Credit with Mixed-Frequency Data and Machine Learning: Evidence from Peru](https://doi.org/10.2139/ssrn.5408526) — SSRN Working Paper (2025)
+- Nowcasting and Backcasting Credit with Mixed-Frequency Data and Machine Learning: Evidence from Peru — *revised and resubmitted*, *International Review of Economics and Finance* ([SSRN version](https://doi.org/10.2139/ssrn.5408526), 2025)
 - [Machine learning methods to forecast inflation in Peru](https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-200/moneda-200-01.pdf) — *Revista Moneda* No. 200, BCRP (2024, in Spanish)
 - [A Leading Indicator for the Peruvian Economic Real Activity](https://www.bcrp.gob.pe/docs/Publicaciones/Documentos-de-Trabajo/2017/documento-de-trabajo-01-2017.pdf) — BCRP Working Paper No. 2017-01 (2017)
 
