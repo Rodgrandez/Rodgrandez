@@ -3,7 +3,7 @@
 **Quantitative Economist | Applied Macro Research, Nowcasting & Machine Learning | Data Science for Prices, Credit & Risk**
 
 I forecast inflation and build nowcasting and machine learning models from high-frequency data at the
-Central Reserve Bank of Peru (14+ years). My research uses high-frequency data to answer macro questions,
+Central Reserve Bank of Peru (13+ years). My research uses high-frequency data to answer macro questions,
 such as real-time forecasting aligned with the release calendar and credit conditions. I evaluate models
 out of sample, in real time, and report what fails as well as what works. I also teach Machine Learning in
 the MSc in Artificial Intelligence at UPC.
